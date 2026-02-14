@@ -3,8 +3,6 @@ title: 'Yet another blog post'
 date: '2024-02-01'
 ---
 
-Write your text here.
-
 ## Examples of Links. 
 
 Both types of link syntax work.
