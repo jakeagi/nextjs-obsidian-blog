@@ -13,7 +13,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p style={{fontSize: "0.9rem"}}>
-         独立开发者，专注分享 AI 工具与 AI 驱动的产品实践。
+         和AI一起进化 
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

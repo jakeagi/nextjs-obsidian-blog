@@ -1,6 +1,12 @@
-import { parseISO, format } from 'date-fns';
+import { parseISO, format, isValid } from 'date-fns';
 
 export default function Date({ dateString }) {
+  if (!dateString) {
+    return null;
+  }
   const date = parseISO(dateString);
-  return <time dateTime={dateString}>{format(date, 'LLLL d, yyyy')}</time>;
+  if (!isValid(date)) {
+    return <time dateTime={dateString}>{dateString}</time>;
+  }
+  return <time dateTime={dateString}>{format(date, 'yyyy年M月d日')}</time>;
 }

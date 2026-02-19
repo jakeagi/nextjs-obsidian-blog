@@ -6,8 +6,8 @@ import utilStyles from '../../styles/utils.module.css';
 
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
-import { prism } from 'react-syntax-highlighter/dist/cjs/styles/prism'
+import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter'
+import prism from 'react-syntax-highlighter/dist/cjs/styles/prism/prism'
 
 const CodeBlock = ({ language, codestring }) => {
   return (
