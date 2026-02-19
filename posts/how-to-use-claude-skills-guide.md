@@ -76,11 +76,13 @@ Skill 的存放路径决定了它的生效范围：
 
 ### 1. 安装 skill-creator
 
-在 Claude Code 中直接让它帮你安装，例如输入：
+在 Claude Code 中使用命令：
 
-> 安装 skill，skill 地址是https://github.com/anthropics/skills/tree/main/skills/skill-creator
+```shell
+/plugin
+```
 
-安装完成后，skill-creator 就可以在当前环境中使用。
+搜索'skill-creator'，安装完成后，skill-creator 就可以在当前环境中使用。
 
 ### 2. 使用 skill-creator 创建新 Skill
 
@@ -91,9 +93,6 @@ Skill 的存放路径决定了它的生效范围：
 > 创建 skill，将产品需求文档转为开发任务拆解列表。
 
 Claude Code 会自动调用 skill-creator，帮你生成完整的 Skill 结构
-![](/images/test_image_1.jpg)
-最终提示创建成功：
-![[test_image_1.jpg]]
 
 本质上，Skill 适合封装“可复用的方法论”。
 当某件事你反复在做，并且有相对稳定的步骤和风格时，就值得把它做成一个 Skill。
