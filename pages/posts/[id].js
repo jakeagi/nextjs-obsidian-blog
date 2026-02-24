@@ -2,6 +2,7 @@ import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import Date from '../../components/date';
+import ShareButtons from '../../components/ShareButtons';
 import utilStyles from '../../styles/utils.module.css';
 
 import ReactMarkdown from 'react-markdown'
@@ -18,6 +19,10 @@ const CodeBlock = ({ language, codestring }) => {
 }
 
 export default function Post({ postData }) {
+  // 默认使用 localhost 开发环境，生产环境请设置环境变量 NEXT_PUBLIC_SITE_URL
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const postUrl = `${baseUrl}/posts/${postData.id}`;
+
   return (
     <Layout>
       <Head>
@@ -51,6 +56,8 @@ export default function Post({ postData }) {
 
         {/* <div dangerouslySetInnerHTML={{ __html: postData.content }} /> */}
       </article>
+
+      <ShareButtons url={postUrl} title={postData.title} />
     </Layout>
   );
 }
