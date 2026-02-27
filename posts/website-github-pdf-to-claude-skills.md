@@ -1,5 +1,5 @@
 ---
-title: '把网站、文档、GitHub、PDF 一键变成 Claude Skills！Skill Seekers 超详细教程'
+title: '把网站、GitHub、PDF 一键变成 Claude Skills！Skill Seekers 超详细教程'
 date: '2026-02-27'
 ---
 
