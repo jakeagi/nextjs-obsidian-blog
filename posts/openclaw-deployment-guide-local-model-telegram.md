@@ -56,11 +56,7 @@ ollama run qwen3.5:4b
 ollama launch openclaw
 ```
 
-然后选择模型：
-
-```
-qwen3.5:4b
-```
+然后选择模型 qwen3.5:4b
 
 ![[截屏2026-03-15 10.51.41.png]]
 
