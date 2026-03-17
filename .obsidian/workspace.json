@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b20b3cde503f8593",
+        "id": "a00ba576eaab0e86",
         "type": "tabs",
         "children": [
           {
-            "id": "dead225eaca81c28",
+            "id": "38a1738fd6284f9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/how-to-use-claude-skills-guide.md",
+                "file": "posts/openclaw-deployment-guide-local-model-telegram.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "how-to-use-claude-skills-guide"
+              "title": "openclaw-deployment-guide-local-model-telegram"
             }
           }
         ]
@@ -168,8 +168,8 @@
             "state": {
               "type": "smtcmp-chat-view",
               "state": {},
-              "icon": "wand-sparkles",
-              "title": "Smart composer chat"
+              "icon": "lucide-ghost",
+              "title": "smtcmp-chat-view"
             }
           }
         ],
@@ -187,12 +187,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "smart-composer:Open smart composer": false
+      "bases:新建数据库": false
     }
   },
-  "active": "4c9949ab7b82f2e3",
+  "active": "38a1738fd6284f9f",
   "lastOpenFiles": [
+    "public/images/截屏2026-03-15 10.51.41.png",
+    "posts/how-to-use-claude-skills-guide.md",
+    "posts/website-github-pdf-to-claude-skills.md",
+    "posts/openclaw-deployment-guide-local-model-telegram.md",
+    "public/images/profile.jpg",
     "node_modules/react-social-icons/dist/react-social-icons.d.ts",
     "node_modules/react-social-icons/dist/component.d.ts",
     "node_modules/react-social-icons/README.md",
@@ -205,7 +209,6 @@
     "node_modules/react-social-icons/dist/icons/xiaohongshu.js",
     "node_modules/react-social-icons/dist/icons/x.js",
     "node_modules/react-social-icons/dist/icons/whatsapp.js",
-    "node_modules/react-social-icons/dist/icons/wechat.js",
     "node_modules/react-share/README.md",
     "node_modules/classnames/README.md",
     "node_modules/classnames/HISTORY.md",
@@ -215,9 +218,7 @@
     "node_modules/jsonp/node_modules/ms/license.md",
     "node_modules/jsonp/node_modules/debug/README.md",
     "node_modules/jsonp/node_modules/debug/CHANGELOG.md",
-    "posts/how-to-use-claude-skills-guide.md",
     "posts/yet-another-blog-post.md",
-    "public/images/profile.jpg",
     "public/images/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=4123883717117598443&skey=@crypt_dd409d55_227eaaffb66765c3a51af415eee2f42d&mmweb_appid=wx_webfilehelper.jpg",
     "2024-02-01.md",
     "public/images/favicon.jpg",
