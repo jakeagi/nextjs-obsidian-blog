@@ -56,9 +56,11 @@ ollama run qwen3.5:4b
 ollama launch openclaw
 ```
 
-然后选择模型 qwen3.5:4b
+然后选择模型
 
-![[截屏2026-03-15 10.51.41.png]]
+```
+qwen3.5:4b
+```
 
 完成后，就可以在终端直接与 OpenClaw 对话。
 
