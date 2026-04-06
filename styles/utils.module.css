@@ -50,3 +50,13 @@
 .lightText {
   color: #666;
 }
+
+.postLink {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.postLink:hover {
+  color: #666;
+}

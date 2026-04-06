@@ -10,6 +10,20 @@ export const siteTitle = '杰客AI';
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
+      <nav className={styles.nav}>
+        <ul className={styles.navList}>
+          <li>
+            <Link href="/" className={`${styles.navLink} ${!home ? '' : styles.navLinkActive}`}>
+              主页
+            </Link>
+          </li>
+          <li>
+            <Link href="/about" className={styles.navLink}>
+              关于我
+            </Link>
+          </li>
+        </ul>
+      </nav>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -32,11 +46,11 @@ export default function Layout({ children, home }) {
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={108}
+              width={108}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.headingLg}>{name}</h1>
           </>
         ) : (
           <>
